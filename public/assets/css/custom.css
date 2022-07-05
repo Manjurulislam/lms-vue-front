@@ -1,0 +1,172 @@
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.card > .card-header {
+    min-height: 50px;
+}
+
+.card > .card-body {
+    padding: 1rem 1rem;
+}
+
+.form-label {
+    font-size: 12px !important;
+    font-weight: 400;
+}
+
+.el-date-editor.el-input,
+.el-date-editor.el-input__inner {
+    width: 100% !important;
+}
+
+.el-table thead {
+    color: aliceblue !important;
+}
+
+.custom-color th {
+    /*background-color: #181c32 !important;*/
+    background-color: #455a64 !important;
+}
+
+.el-popover {
+    z-index: 99 !important;
+}
+
+.item-table th {
+    background-color: unset !important;
+    color: #606266;
+}
+
+.custom-color td,
+.custom-color th {
+    padding: 10px 0 !important;
+}
+
+.custom-color .el-checkbox {
+    height: unset !important;
+}
+
+.el-button i {
+    color: #fff;
+}
+
+.el-dropdown-link i {
+    cursor: pointer;
+    color: #409eff;
+}
+
+.el-dropdown-menu__item i {
+    font-size: 25px !important;
+}
+
+.aside-fixed .aside {
+    overflow-y: scroll;
+}
+
+/*
+.el-table .el-table__cell{
+    padding: 0 !important;
+}*/
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+}
+
+.el-table__footer-wrapper tbody td.el-table__cell {
+    text-align: end;
+}
+
+.el-dialog__header {
+    background-color: #1867c0 !important;
+    border-color: #1867c0 !important;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    padding: 20px 20px !important;
+    box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.el-dialog__title {
+    color: #ffffff !important;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+    color: #ffffff !important;
+}
+
+.el-dialog__headerbtn .el-icon-close {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.custom-dialog .el-card__header {
+    padding: 0;
+}
+
+.expand-item-table th {
+    background-color: #b3e5fc !important;
+    color: #606266;
+}
+
+.expand-item-table {
+    width: 100%;
+}
+
+.custom-loading-svg .el-loading-spinner {
+    top: 25% !important;
+}
+
+.el-loading-mask {
+    z-index: 99 !important;
+}
+
+.el-date-editor .el-range-separator {
+    width: 8% !important;
+}
+
+.cal-total th:last-child {
+    text-align: right !important;
+}
+
+
+@media (min-width: 1281px) {
+    .multiselect {
+        min-width: 300px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .multiselect {
+        min-width: 300px;
+    }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .multiselect {
+        min-width: 300px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .multiselect {
+        min-width: 195px;
+    }
+
+}
